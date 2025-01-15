@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+html, body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color: white;
+}
+
+#tooltip {
+    background-color: whitesmoke;
+    opacity: 0;
+    width: 120px;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    pointer-events: none;
+}
+
+.bar:hover {
+    fill: #6A9AB0;
+}
+
+.y-axis-detail {
+    font-size: x-large;
+}
+
+.x-axis-detail {
+    font-size: x-large;
+}
